@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Raleway;
+}
+
+.topo{
+    background-color: #CD81FA;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 30vh;
+}
+
+.listaTarefas{
+    background-color: #A8FCED;
+    width: 100vw;
+    height: 100vh;
+}
+
+.formulario{
+    display: block;
+    position: relative;
+    border: 1px solid white;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 200px;
+    text-align: center;
+    box-shadow: 10px 10px 20px gray;
+}
+
+.txttarefa, txttarefa:focus, textarea:focus{
+    padding: 20px;
+    width: 500px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #CD81FA;
+    outline: none;
+}
+
+txttarefa::placeholder{
+    color: #A8FCED
+}
+
+.btnincluir{
+    margin-top: 30px;
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid purple;
+    background-color: purple;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btnincluir:hover{
+    transform: scale(1.05);
+    color: white;
+    border: none;
+    transition: 0.2s;
+}
+
+.limpar, .limpar:visited{
+    color: #3CFAD6;
+    margin-top: 15px;
+    margin-bottom: -10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.limpar:hover{
+    color: purple;
+    transition: 0,2s;
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10vh;
+    font-size: 40px;
+}
+
+td:nth-child(1){
+    color: #CD81FA;
+    border-bottom: 2px solid #CD81FA;
+}
+
+img{
+    margin-left: 10px;
+}
+
+.btnExcluir{
+   padding: 5px 10px 5px 10px;
+   border-radius: 10px;
+   margin-left: 50px;
+   background-color: transparent;
+   transition: 0.2s;
+   font-size: 18px;
+
+}
+
+.btnExcluir:hover{
+    border: none;
+    transform: scale(1.05);
+    background-color: #F86CB2;
+    transition: 0.2s;
+}
